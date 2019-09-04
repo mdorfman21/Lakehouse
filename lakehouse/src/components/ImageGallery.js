@@ -20,24 +20,13 @@ class SimpleSlider extends React.Component {
   }
 
   render() {
-    var settings = {
-      className: "image",
-      dots: true,
-      infinite: true,
-      speed: 500,
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      centerMode: true,
-      focusOnSelect: true,
-      // autoplay: true
-    };
     return (
       <div>
         <Slider asNavFor={this.state.nav2} ref={slider => (this.slider1=slider)}>
       
       <div>
         <h3 className="image">1</h3>
-        <img className="margin" src={"https://image.shutterstock.com/image-photo/sunny-winter-afternoon-venue-on-600w-1431131984.jpg"} alt="stock" />
+        <img className="margin" src="https://image.shutterstock.com/image-photo/sunny-winter-afternoon-venue-on-600w-1431131984.jpg" alt="stock" />
       </div>
       <div>
         <h3 className="image">2</h3>
@@ -45,15 +34,19 @@ class SimpleSlider extends React.Component {
       </div>
       <div>
         <h3 className="image">3</h3>
+        <img className="margin" src="https://image.shutterstock.com/image-photo/chicoutimi-river-saguenay-quebec-canada-600w-733288543.jpg" alt="trees" />
       </div>
       <div>
         <h3 className="image">4</h3>
+        <img className="margin" src="https://image.shutterstock.com/image-photo/lake-daylesford-lakehouse-260nw-1373796512.jpg" alt="boat" />
       </div>
       <div>
         <h3 className="image">5</h3>
+        <img className="margin" src="https://image.shutterstock.com/image-photo/chicoutimi-river-saguenay-quebec-canada-600w-687588589.jpg" alt="another lake" />
       </div>
       <div>
         <h3 className="image">6</h3>
+        <img className="margin" src="https://image.shutterstock.com/image-photo/early-morning-lakehouse-adirondacks-600w-1350384188.jpg" alt="another one lake" />
       </div>
     </Slider>
       <Slider asNavFor={this.state.nav1} ref={slider => (this.slider2 = slider)} slidesToShow={6} swipeToSlide={true}
@@ -68,15 +61,19 @@ class SimpleSlider extends React.Component {
       </div>
       <div>
         <h3 className="image">3</h3>
+        <img className="margin thumbnail" src="https://image.shutterstock.com/image-photo/chicoutimi-river-saguenay-quebec-canada-600w-733288543.jpg" alt="trees" />
       </div>
       <div>
         <h3 className="image">4</h3>
+        <img className="margin thumbnail" src="https://image.shutterstock.com/image-photo/lake-daylesford-lakehouse-260nw-1373796512.jpg" alt="boat" />
       </div>
       <div>
         <h3 className="image">5</h3>
+        <img className="margin thumbnail" src="https://image.shutterstock.com/image-photo/chicoutimi-river-saguenay-quebec-canada-600w-687588589.jpg" alt="another lake" />
       </div>
       <div>
         <h3 className="image">6</h3>
+        <img className="margin thumbnail" src="https://image.shutterstock.com/image-photo/early-morning-lakehouse-adirondacks-600w-1350384188.jpg" alt="another one lake" />
       </div>
       </Slider>
 
