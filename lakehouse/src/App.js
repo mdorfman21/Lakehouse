@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Images from './components/ImageGallery';
+import AppContainer from './components/Container';
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
      
     </div>
     <div>
-      <Images />
+      <AppContainer />
     </div>
     </div>
   );
