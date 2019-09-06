@@ -2,6 +2,7 @@ import React from 'react';
 import Images from './ImageGallery';
 import { Container, Row, Col } from 'react-bootstrap';
 import Button from './button';
+import Header from './Header';
 
 class AppContainer extends React.Component {
 
@@ -12,6 +13,11 @@ class AppContainer extends React.Component {
   render() {
     return(
       <Container>
+        <Row>
+          <Col>
+            <Header />
+          </Col>
+        </Row>
         <Row>
           <Col>
             <Images />

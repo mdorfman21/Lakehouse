@@ -45,10 +45,10 @@ html, body {
   padding: 0 0;
 }
 
-/* .panel .inner {
+.panel .inner {
   display: table-cell;
   vertical-align: middle;
-} */
+}
 
 .background-image {
   -webkit-background-size: cover;
@@ -60,6 +60,7 @@ html, body {
   left: 0;
   height: 100%;
   width: 100%;
+  z-index: -10;
 
 }
 
@@ -84,26 +85,26 @@ html, body {
 }
 
 #background-change div:nth-of-type(1) {
-  animation-delay: 8s;
+  animation-delay: 32s;
 }
 
 #background-change div:nth-of-type(2) {
-  animation-delay: 6s;
+  animation-delay: 24s;
 }
 
 #background-change div:nth-of-type(3) {
-  animation-delay: 4s;
+  animation-delay: 16s;
 }
 
 #background-change div:nth-of-type(4) {
-  animation-delay: 2s;
+  animation-delay: 8s;
 }
 
 #background-change div {
   animation-name: backgroundFadeInAndOut;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
-  animation-duration: 8s;
+  animation-duration: 32s;
 
 }
 
@@ -112,6 +113,6 @@ html, body {
   animation-name: backgroundFadeInAndOut;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
-  animation-duration: 10s;
+  animation-duration: 40s;
   animation-direction: alternate;
 }

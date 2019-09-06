@@ -76,9 +76,9 @@ class SimpleSlider extends React.Component {
         <img className="margin thumbnail" src="https://image.shutterstock.com/image-photo/early-morning-lakehouse-adirondacks-600w-1350384188.jpg" alt="another one lake" />
       </div>
       </Slider>
-
+        
       </div>
-     
+      
     );
   }
 }
