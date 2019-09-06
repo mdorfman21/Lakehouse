@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Lakehouse/static/css/main.8a30d583.chunk.css",
+    "main.js": "/Lakehouse/static/js/main.b8c52fbc.chunk.js",
+    "main.js.map": "/Lakehouse/static/js/main.b8c52fbc.chunk.js.map",
+    "runtime~main.js": "/Lakehouse/static/js/runtime~main.921154e9.js",
+    "runtime~main.js.map": "/Lakehouse/static/js/runtime~main.921154e9.js.map",
+    "static/css/2.138611da.chunk.css": "/Lakehouse/static/css/2.138611da.chunk.css",
+    "static/js/2.26e3a7a4.chunk.js": "/Lakehouse/static/js/2.26e3a7a4.chunk.js",
+    "static/js/2.26e3a7a4.chunk.js.map": "/Lakehouse/static/js/2.26e3a7a4.chunk.js.map",
+    "index.html": "/Lakehouse/index.html",
+    "precache-manifest.e8bd0180b2d59ff004d69b163dfd2e4e.js": "/Lakehouse/precache-manifest.e8bd0180b2d59ff004d69b163dfd2e4e.js",
+    "service-worker.js": "/Lakehouse/service-worker.js",
+    "static/css/2.138611da.chunk.css.map": "/Lakehouse/static/css/2.138611da.chunk.css.map",
+    "static/css/main.8a30d583.chunk.css.map": "/Lakehouse/static/css/main.8a30d583.chunk.css.map",
+    "static/media/logo.svg": "/Lakehouse/static/media/logo.5d5d9eef.svg",
+    "static/media/slick-theme.css": "/Lakehouse/static/media/slick.f97e3bbf.svg"
+  }
+}
